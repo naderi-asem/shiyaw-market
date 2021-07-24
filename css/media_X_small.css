@@ -15,13 +15,9 @@
     
     /************ set style for menu section ************/
     .menu{
-        /* display: flex; */
-        /* flex-flow: wrap column; */
-        /* justify-content: space-between; */
-        /* align-items: center; */
+        
         width: inherit;
         background-color: goldenrod;
-        /* padding: 0 10px 0 10px; */
         padding-top: 5px;
         box-sizing: border-box;
         position: fixed;
@@ -30,35 +26,26 @@
     .menu>.icon{
         display: flex;    
         justify-content: center;
-        /* align-items: center; */
-        /* position: relative; */
     }
     
     .menu>section.icon>img{
         width: 47.2px;
         height: 47.2px;
-        /* color: aqua !important; */
     }
     
     .menu>section.icon>a{
         width: 110px;
-        /* margin-left: 10px; */
         font-family: BNazanin;
         font-size: 26px;
         color: #000085;
         text-shadow: 2px 2px 2px whitesmoke;
         text-decoration: none;
         font-weight: bolder;
-        /* padding-bottom: 4px; */
-        /* box-sizing: border-box; */
-        /* position: absolute;
-        top: 52px; */
     }
 
     .menu>nav{
         width: 100%;
         width: inherit;
-        /* background-color: aliceblue; */
         margin-top: 15px;
     }
 
@@ -67,7 +54,6 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-content: center;
-        /* align-items: center; */
         direction: rtl;
         list-style: none;
     }
@@ -77,7 +63,6 @@
         display: block;
         margin-bottom: 10px;
         text-align: center;
-        /* background-color: aquamarine; */
         box-sizing: border-box;
         padding: 5px;
     }
@@ -96,7 +81,6 @@
 
     .menu>nav>ul>li>ul{
         list-style: none;
-        /* background-color: brown; */
         display: none;
     }
 

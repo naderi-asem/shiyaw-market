@@ -17,11 +17,9 @@
     .menu{
         display: flex;
         flex-flow: wrap column;
-        /* justify-content: space-between; */
         align-items: center;
         width: inherit;
         background-color: goldenrod;
-        /* padding: 0 10px 0 10px; */
         padding-top: 5px;
         box-sizing: border-box;
         position: fixed;
@@ -37,20 +35,16 @@
     .menu>section.icon>img{
         width: 47.2px;
         height: 47.2px;
-        /* color: aqua !important; */
     }
     
     .menu>section.icon>a{
         width: 110px;
-        /* margin-left: 10px; */
         font-family: BNazanin;
         font-size: 26px;
         color: #000085;
         text-shadow: 2px 2px 2px whitesmoke;
         text-decoration: none;
         font-weight: bolder;
-        /* padding-bottom: 4px; */
-        /* box-sizing: border-box; */
         position: absolute;
         top: 52px;
         
@@ -61,23 +55,16 @@
     }
     
     .menu>nav>ul{
-        /* width: 100%; */
         display: flex;
         flex-flow: wrap-reverse row-reverse;
         list-style: none;
         justify-content: space-between;
-        /* justify-content: center; */
     }
     
     .menu>nav>ul>li{
-        /* display: block; */
         width: 33%;
-        /* position: relative; */
-        /* margin-left: 15px; */
         height: 47.2px;
-        /* line-height: 50px; */
         position: relative;
-        /* width: 160px; */
         text-align: center;
     }
 
@@ -110,9 +97,6 @@
     
     .menu>nav>ul>li:hover>ul{
         display: block;
-        /* flex-flow: wrap column; */
-        /* width: 200px;  */
-        /* margin-top: 7px; */
         animation-name: myAnimate;
         animation-duration: 0.5s;
         animation-timing-function: linear;

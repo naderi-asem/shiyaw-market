@@ -34,7 +34,6 @@
     .menu>section.icon>img{
         width: 47.2px;
         height: 47.2px;
-        /* color: aqua !important; */
     }
     
     .menu>section.icon>a{
@@ -45,7 +44,6 @@
         text-shadow: 2px 2px 2px whitesmoke;
         text-decoration: none;
         font-weight: bolder;
-        /* padding-bottom: 4px; */
         box-sizing: border-box;
         
     }
@@ -54,16 +52,12 @@
         display: flex;
         flex-direction: row-reverse;
         list-style: none;
-        /* justify-content: center; */
     }
     
     .menu>nav>ul>li{
-        /* position: relative; */
         margin-left: 15px;
         height: 47.2px;
-        /* line-height: 50px; */
         position: relative;
-        /* width: 160px; */
         text-align: center;
     }
     
@@ -91,9 +85,6 @@
     
     .menu>nav>ul>li:hover>ul{
         display: block;
-        /* flex-flow: wrap column; */
-        /* width: 200px;  */
-        /* margin-top: 7px; */
         animation-name: myAnimate;
         animation-duration: 0.5s;
         animation-timing-function: linear;
