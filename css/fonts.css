@@ -1,0 +1,27 @@
+@font-face{
+    font-family: 'BNazanin';
+    src: url(../fonts/BNazanin.eot);
+    src: url(../fonts/BNazanin.ttf);
+    src: url(../fonts/BNazanin.woff);
+}
+
+@font-face{
+    font-family: 'BTitr';
+    src: url(../fonts/BTitrBold.eot);
+    src: url(../fonts/BTitrBold.ttf);
+    src: url(../fonts/BTitrBold.woff);
+}
+
+@font-face{
+    font-family: 'BZar';
+    src: url(../fonts/BZar.eot);
+    src: url(../fonts/BZar.ttf);
+    src: url(../fonts/BZar.woff);
+}
+
+@font-face{
+    font-family: 'BLotus';
+    src: url(../fonts/BLotus.eot);
+    src: url(../fonts/BLotus.ttf);
+    src: url(../fonts/BLotus.woff);
+}

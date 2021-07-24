@@ -1,0 +1,128 @@
+@media(max-width: 576px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    
+
+    .container{
+        width: 100%;
+        min-height: 1200px;
+        background-color: rgba(0, 100, 0, 0.7);
+    }
+    
+    /************ set style for menu section ************/
+    .menu{
+        /* display: flex; */
+        /* flex-flow: wrap column; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        width: inherit;
+        background-color: goldenrod;
+        /* padding: 0 10px 0 10px; */
+        padding-top: 5px;
+        box-sizing: border-box;
+        position: fixed;
+    }
+    
+    .menu>.icon{
+        display: flex;    
+        justify-content: center;
+        /* align-items: center; */
+        /* position: relative; */
+    }
+    
+    .menu>section.icon>img{
+        width: 47.2px;
+        height: 47.2px;
+        /* color: aqua !important; */
+    }
+    
+    .menu>section.icon>a{
+        width: 110px;
+        /* margin-left: 10px; */
+        font-family: BNazanin;
+        font-size: 26px;
+        color: #000085;
+        text-shadow: 2px 2px 2px whitesmoke;
+        text-decoration: none;
+        font-weight: bolder;
+        /* padding-bottom: 4px; */
+        /* box-sizing: border-box; */
+        /* position: absolute;
+        top: 52px; */
+    }
+
+    .menu>nav{
+        width: 100%;
+        width: inherit;
+        /* background-color: aliceblue; */
+        margin-top: 15px;
+    }
+
+    .menu>nav>ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        /* align-items: center; */
+        direction: rtl;
+        list-style: none;
+    }
+
+    .menu>nav>ul>li{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+        /* background-color: aquamarine; */
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    .menu>nav>ul>li:hover{
+        background-color: #20da39;
+    }
+
+    .menu>nav>ul>li>a{
+        font-family: BNazanin;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000085;
+        text-decoration: none;
+    }
+
+    .menu>nav>ul>li>ul{
+        list-style: none;
+        /* background-color: brown; */
+        display: none;
+    }
+
+    .menu>nav>ul>li:hover>ul{
+        display: block;
+        animation-name: myAnimate_small;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+    }
+
+    .menu>nav>ul>li>ul>li{
+        margin-bottom: 5px;
+    }
+
+    .menu>nav>ul>li>ul>li:hover{
+        background-color: aliceblue;
+    }
+
+    .menu>nav>ul>li>ul>li>a{
+        font-family: Blotus;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #000085;
+    }
+    /************ end set style for menu section ************/
+   
+}

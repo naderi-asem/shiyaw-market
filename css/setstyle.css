@@ -1,0 +1,28 @@
+/*********** set fonts for project ***********/
+@import "fonts.css";
+/*********** end set fonts for project ***********/
+
+/*********** set animation for project ***********/
+@import "animation.css";
+/*********** end set animation for project ***********/
+
+/*********** set media X-large for project ***********/
+@import "media_X_large.css";
+/*********** end set media X-large for project ***********/
+
+/*********** set media large for project ***********/
+@import "media_large.css";
+/*********** end set media large for project ***********/
+
+/*********** set media medium for project ***********/
+@import "media_medium.css";
+/*********** end set media medium for project ***********/
+
+/*********** set media small for project ***********/
+@import "media_small.css";
+/*********** set media small for project ***********/
+
+/*********** set media X-small for project ***********/
+@import "media_X_small.css";
+/*********** set media X-small for project ***********/
+
